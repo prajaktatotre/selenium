@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DATA PROVIDER TESTING]">
+  <test name="Data provider testing(failed)">
+    <classes>
+      <class name="com.testng.annotations.practice.NewTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testng.annotations.practice.NewTest -->
+    </classes>
+  </test> <!-- Data provider testing(failed) -->
+</suite> <!-- Failed suite [DATA PROVIDER TESTING] -->

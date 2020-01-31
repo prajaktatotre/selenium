@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testng practice]">
+  <test name="TestNG annotations(failed)">
+    <groups>
+      <run>
+        <include name="A"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.annotations.practice.Annotations">
+        <methods>
+          <include name="testprintMessage2"/>
+        </methods>
+      </class> <!-- com.testng.annotations.practice.Annotations -->
+    </classes>
+  </test> <!-- TestNG annotations(failed) -->
+</suite> <!-- Failed suite [Testng practice] -->

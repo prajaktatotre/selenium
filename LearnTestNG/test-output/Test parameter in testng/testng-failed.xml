@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test parameter in testng]">
+  <parameter name="BrowserName" value="chrome"/>
+  <test name="using xml file(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="com.testng.annotations.practice.ParameterTestng">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.testng.annotations.practice.ParameterTestng -->
+    </classes>
+  </test> <!-- using xml file(failed) -->
+</suite> <!-- Failed suite [Test parameter in testng] -->

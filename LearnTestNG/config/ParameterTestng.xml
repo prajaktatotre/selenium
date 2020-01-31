@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test parameter in testng">
+	<test name="using xml file">
+		<parameter name="BrowserName" value="chrome"/>
+		<parameter name="username" value="prajakta"/>
+		<parameter name="password" value="passwd"/>
+		<classes>
+			<class name="com.testng.annotations.practice.ParameterTestng">
+			</class>
+		</classes>
+	</test>
+</suite>

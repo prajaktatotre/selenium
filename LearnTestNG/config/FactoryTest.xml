@@ -1,0 +1,8 @@
+<suite name="TEST FACTORY">
+	<test name="USE Test1Factory and Test2Factory">
+		<classes>
+			<class name="com.testng.annotations.practice.TestFactory">
+			</class>
+		</classes>
+	</test>
+</suite>

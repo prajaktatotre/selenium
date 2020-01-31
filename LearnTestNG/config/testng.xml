@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testng practice">
+	<test name="TestNG annotations">
+		<groups>
+			<run>
+				<include name="A">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testng.annotations.practice.Annotations">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Basic Annotions">
+		<groups>
+			<run>
+				<include name="BasicAnnotations">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testng.annotations.practice.Annotations">
+			</class>
+		</classes>
+	</test>
+
+</suite>

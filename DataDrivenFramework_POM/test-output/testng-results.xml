@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Everjobs Suite" duration-ms="14606" started-at="2019-11-22T12:25:15Z" finished-at="2019-11-22T12:25:30Z">
+    <groups>
+    </groups>
+    <test name="Page Object Model Project" duration-ms="14606" started-at="2019-11-22T12:25:15Z" finished-at="2019-11-22T12:25:30Z">
+      <class name="tests.TestBase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.TestBase@4f7d0008]" name="initialize" is-config="true" duration-ms="21560" started-at="2019-11-22T17:54:54Z" finished-at="2019-11-22T17:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:tests.TestBase@4f7d0008]" name="TeardownTest" is-config="true" duration-ms="70" started-at="2019-11-22T17:55:30Z" finished-at="2019-11-22T17:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.FbLoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.FbLoginTest@271053e1]" name="init" duration-ms="14488" started-at="2019-11-22T17:55:15Z" finished-at="2019-11-22T17:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:tests.FbLoginTest@271053e1]" name="writeResult" is-config="true" duration-ms="105" started-at="2019-11-22T17:55:30Z" finished-at="2019-11-22T17:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=init status=SUCCESS method=FbLoginTest.init()[pri:0, instance:tests.FbLoginTest@271053e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+      </class> <!-- tests.FbLoginTest -->
+    </test> <!-- Page Object Model Project -->
+  </suite> <!-- Everjobs Suite -->
+</testng-results>

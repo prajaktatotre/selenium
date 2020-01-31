@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DATA PROVIDER TESTING" data-provider-thread-count="10">
+	<test name="Data provider testing">
+		<classes>
+			<class name="com.testng.annotations.practice.DataProvider1">
+			</class>
+		</classes>
+	</test>
+</suite>

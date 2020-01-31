@@ -1,0 +1,8 @@
+<suite name="Dataprovider using excel file">
+	<test name="Test EXCEL using data Provider">
+		<classes>
+			<class name="com.testng.annotations.practice.DataProviderUsingExcel">
+			</class>
+		</classes>
+	</test>
+</suite>
